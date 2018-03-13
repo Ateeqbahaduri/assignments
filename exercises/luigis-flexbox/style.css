@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 0;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(SuperMario256.ttf);
+}
+
+div {
+    font-family: myFirstFont;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row; 
+    flex: .10;
+    background-color:#ffd40e;
+    align-items: center;
+    color: red;
+
+    
+}
+
+h1{
+    font-size: 50px;
+    padding-left: 50px; 
+    font-family: myFirstFont;   
+}
+
+.banner {
+    justify-content: center;
+    background-color: red;
+    flex:.45;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.img {    
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    
+}
+
+.main {
+    flex:.35;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-family: myFirstFont;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    line-height: 50px;
+}
+p{
+    color: red;
+    font-family: myFirstFont;
+    font-size: 20px;
+    line-height: 35px;
+
+
+
+
+}
+footer {
+    display: flex;
+    flex: .10;
+    flex-direction: row;
+    background-color: yellow;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.img2{ 
+    background-image: url(https://coursework.vschool.io/content/images/2015/07/greenmushroom.png);
+    width: 50px;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+
+ }

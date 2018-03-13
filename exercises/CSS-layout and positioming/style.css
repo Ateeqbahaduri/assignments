@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 0;
+}
+.box {
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    width: 1000px;
+    background-color: lightseagreen;
+    position: absolute;
+
+
+}
