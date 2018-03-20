@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid black;
+}
+.wrapper {
+    display: inline;
+    border: 1px;
+    color: black;
+}
+
+.box1 {
+    background-color: blueviolet;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    border: black;
+}
+
+.box2 {
+    background-color: brown;
+    height: 10px;
+    width: 10px;
+}
