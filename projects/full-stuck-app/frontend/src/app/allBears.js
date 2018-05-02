@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getBears } from '../redux';
-import BearSummary from './bearsummary';
+import BearSummary from './BearSummary';
 
 class AllBears extends Component {
     componentDidMount(){
@@ -11,14 +11,11 @@ class AllBears extends Component {
         console.log(this.props);
         const bears = this.props.data.map(obj => <BearSummary key={obj._id} {...obj}/>)
         return (
-            <div>
+            <div className="AllBears">
                 {bears}
             </div>
         )
     }
 }
-
-
-
 
 export default connect(state => state, { getBears})(AllBears);

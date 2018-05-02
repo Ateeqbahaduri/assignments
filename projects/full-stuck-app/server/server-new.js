@@ -5,11 +5,6 @@ const bp = require('body-parser');
 const PostModel = require("./bears-model")
 // this comes after we define router in line 22
 
-
-
-
-
-
 // setting up the app
 const app = express();
 const PORT = 8080;

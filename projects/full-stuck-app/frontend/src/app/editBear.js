@@ -50,12 +50,12 @@ componentDidMount(){
         console.log(this.state);
         
         return (
-            <div>
+            <div className="edit-bear">
                 <form onSubmit={this.handleSubmit}>
-                    title<input name="title" onChange={this.handleChange} value={this.state.title}/>
-                    <textarea name="body" id="" cols="30" rows="10" onChange={this.handleChange} value={this.state.body}></textarea>
-                    <input type="text" name="image_url" onChange={this.handleChange} value={this.state.image_url}/>
-                    <button id="submit">submit</button>
+                    Title<input name="title" onChange={this.handleChange} value={this.state.title}/>
+                    Comments<textarea name="body" id="" cols="30" rows="10" onChange={this.handleChange} value={this.state.body}></textarea>
+                    URL<input type="text" name="image_url" onChange={this.handleChange} value={this.state.image_url}/>
+                    <div className="btns"><button className="Enter">submit change</button></div>
                 </form>
                 
             </div>

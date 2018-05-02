@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const bearSummary = (props) => {
+const BearSummary = (props) => {
     const { _id, title, body, image_url} = props
 
     return (
         <section>
-            <div>
+            <div className="bear-summary">
                 <h1><Link to = {`bears/${_id}`}>{ title }</Link></h1>
                 <div>{ body }</div>
                 <img src={image_url} alt="" />
@@ -14,4 +14,4 @@ const bearSummary = (props) => {
         </section>
     )
 }
-export default bearSummary;
+export default BearSummary;
